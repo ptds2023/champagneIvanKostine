@@ -3,7 +3,7 @@ Type: Package
 Title: Calculating the volume of a glass of wine
 Version: 0.1.0
 Author: Ivan Kostine
-Maintainer: ivan.kostine@unil.ch
+Maintainer: <ivan.kostine@unil.ch>
 Description: This package contains the following function:
     - Building the function of a glass of wine
     - Benchmarking the different approaches
@@ -11,7 +11,16 @@ Description: This package contains the following function:
     - Calculating the volume
     - Simulating a party
     - Finding the optimal volume needed to fill the glass 
-    - Calculating the amount of bottles needed for a party
-License: none
+    - Calculating the amount of bottles needed for a party.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    microbenchmark,
+    purrr,
+    ggplot2,
+    graphics
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
