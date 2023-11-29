@@ -2,7 +2,7 @@
 #'
 #' @return b: the upper bound of the function by using uniroot
 #' @export
-#'
+#' @param b Upper bound to find
 #' @examples
 volume_function = function(b) {
   volume = integral_v(10, b)

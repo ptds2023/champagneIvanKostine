@@ -6,8 +6,10 @@
 #' @return List of benchmarks
 #' @export
 #'
-#' @examples
+#' @examples benchmark_results(20)
+
+
 benchmark_results = function(i){
-  results = map(i, run_benchmarks)
+  results = purrr::map(i, run_benchmarks)
   return (results)
 }

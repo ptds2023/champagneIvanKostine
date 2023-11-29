@@ -6,6 +6,9 @@
 \usage{
 volume_function(b)
 }
+\arguments{
+\item{b}{Upper bound to find}
+}
 \value{
 b: the upper bound of the function by using uniroot
 }

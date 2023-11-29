@@ -8,5 +8,5 @@
 #'
 #' @examples
 integral_i = function(lowerb, upperb){
-  return(integrate(already_vectorized, lower=lowerb, upper=upperb))
+  return(stats::integrate(already_vectorized, lower=lowerb, upper=upperb))
 }

@@ -15,3 +15,6 @@ the value of the function F evaluated for X
 \description{
 Define the function F of a glass of wine by using only vectorized operations
 }
+\examples{
+already_vectorized(3)
+}

@@ -8,7 +8,7 @@
 #' @examples
 run_benchmarks1 = function(size) {
   x_values = generate_input(size)
-  mb_results = microbenchmark(
+  mb_results = microbenchmark::microbenchmark(
     func_for(x_values),
     func_map(x_values),
     func_apply(x_values),

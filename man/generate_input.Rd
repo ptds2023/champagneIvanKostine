@@ -7,7 +7,7 @@
 generate_input(size)
 }
 \arguments{
-\item{size}{}
+\item{size}{Input size to use in microbenchmark}
 }
 \value{
 Input to use in the benchmark function

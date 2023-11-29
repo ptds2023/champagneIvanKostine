@@ -15,3 +15,6 @@ List of benchmarks
 \description{
 Extract the results of the Benchmarks including the vectorized function
 }
+\examples{
+benchmark1_results(20)
+}

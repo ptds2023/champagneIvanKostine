@@ -5,7 +5,7 @@ test_that("plot_benchmark produces a plot", {
   #Running benchmarks for all functions
   run_benchmarks = function(size) {
     x_values = generate_input(size)
-    mb_result = microbenchmark(
+    mb_result = microbenchmark::microbenchmark(
       func_for(x_values),
       func_map(x_values),
       times = 1
@@ -15,7 +15,7 @@ test_that("plot_benchmark produces a plot", {
 
   #Run benchmarks for each input size
   benchmark_results = function(i){
-    results = map(i, run_benchmarks)
+    results = purrr::map(i, run_benchmarks)
     return (results)
   }
 

@@ -8,5 +8,5 @@
 #'
 #' @examples
 func_map = function(x) {
-  map_dbl(x, glass_function)
+  purrr::map_dbl(x, glass_function)
 }

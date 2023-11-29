@@ -5,7 +5,8 @@
 #' @return the value of the function F evaluated for X
 #' @export
 #'
-#' @examples
+#' @examples already_vectorized(3)
+
 already_vectorized = function(x) {
   result <- numeric(length(x))
   #Conditions

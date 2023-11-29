@@ -3,7 +3,7 @@
 #'
 #' @return
 #' @export
-#'
+#' @param b Upperbound to find
 #' @examples
 volume_function_optimize = function(b) {
   volume = integral_v(10, b)

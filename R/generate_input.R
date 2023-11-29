@@ -1,7 +1,7 @@
 #Generating input of increasing size
 #' Generating the input size for the benchmarking
 #'
-#' @param size
+#' @param size Input size to use in microbenchmark
 #'
 #' @return Input to use in the benchmark function
 #' @export

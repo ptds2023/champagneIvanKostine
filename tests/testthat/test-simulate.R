@@ -1,5 +1,5 @@
 test_that("simulate runs without errors and produces a plot", {
-  simulate()
+  simulate_results()
   plot = recordPlot()
   replayPlot(plot)
   graphics.off()

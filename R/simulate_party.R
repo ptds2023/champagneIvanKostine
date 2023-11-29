@@ -5,10 +5,10 @@
 #'
 #' @examples
 simulate_party = function() {
-  G = rpois(1, lambda = 50)
-  D = rpois(G, lambda = 1.5)
+  G = stats::rpois(1, lambda = 50)
+  D = stats::rpois(G, lambda = 1.5)
   a = 10
-  b = rnorm(1, mean = 11.15, sd = 0.5)
+  b = stats::rnorm(1, mean = 11.15, sd = 0.5)
 
   total_glasses = sum(D)
   total_litres = integral_v(a, b)

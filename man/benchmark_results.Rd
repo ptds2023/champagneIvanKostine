@@ -15,3 +15,6 @@ List of benchmarks
 \description{
 Extracting the result of our benchmarks
 }
+\examples{
+benchmark_results(20)
+}

@@ -6,6 +6,9 @@
 \usage{
 volume_function_optimize(b)
 }
+\arguments{
+\item{b}{Upperbound to find}
+}
 \description{
 Find upper bound using optimize
 }
