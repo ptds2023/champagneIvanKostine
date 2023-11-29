@@ -15,3 +15,7 @@ Description: This package contains the following function:
 License: none
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    microbenchmark,
+    purrr
+RoxygenNote: 7.2.3
