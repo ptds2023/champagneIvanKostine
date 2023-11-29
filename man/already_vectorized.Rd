@@ -2,7 +2,7 @@
 % Please edit documentation in R/already_vectorized.R
 \name{already_vectorized}
 \alias{already_vectorized}
-\title{Define the function F of a glass of wine}
+\title{Define the function F of a glass of wine by using only vectorized operations}
 \usage{
 already_vectorized(x)
 }
@@ -13,5 +13,5 @@ already_vectorized(x)
 the value of the function F evaluated for X
 }
 \description{
-Define the function F of a glass of wine
+Define the function F of a glass of wine by using only vectorized operations
 }
