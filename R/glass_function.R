@@ -1,3 +1,11 @@
+#' Defining function F representing the cut of a glass of wine
+#'
+#' @param x the value of x parameter (x-axis)
+#'
+#' @return y value of function F evaluated for x
+#' @export
+#'
+#' @examples
 glass_function = function(x) {
   if (x < 0) {
     return(0)

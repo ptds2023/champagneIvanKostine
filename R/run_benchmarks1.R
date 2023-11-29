@@ -1,3 +1,11 @@
+#' Run the benchmark for all functions including the Vectorized function
+#'
+#' @param size input size of the benchmark function
+#'
+#' @return List of benchmarks
+#' @export
+#'
+#' @examples
 run_benchmarks1 = function(size) {
   x_values = generate_input(size)
   mb_results = microbenchmark(

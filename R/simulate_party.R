@@ -1,3 +1,9 @@
+#' Generate the numeric values to create simulation of a party
+#'
+#' @return
+#' @export
+#'
+#' @examples
 simulate_party = function() {
   G = rpois(1, lambda = 50)
   D = rpois(G, lambda = 1.5)

@@ -1,3 +1,9 @@
+#' Evaluate the simulation and return plots of the results
+#'
+#' @return Prints plots of the simulations
+#' @export
+#'
+#' @examples
 simulate = function(){
   #Simulating
   simulations = replicate(10000, simulate_party())

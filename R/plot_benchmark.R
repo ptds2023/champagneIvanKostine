@@ -1,4 +1,13 @@
 #Plotting the benchmark
+#' Plotting the results of the benchmarks
+#'
+#' @param b_results List of the results of the benchmarks after using microbenchmark
+#' @param i_sizes Input size of the benchmarks
+#'
+#' @return Boxplot of the benchmarks
+#' @export
+#'
+#' @examples
 plot_benchmark = function(b_results, i_sizes){
   plot_data = as.data.frame(b_results(i_sizes))
 
